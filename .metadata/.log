@@ -452,3 +452,18 @@ Contains: C:\Users\Tatiana\Documents\GitHub\POSExercises overlaps the workspace 
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 19:37:07.301
 !MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2015-04-28 22:29:05.585
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 22:29:05.585
+!MESSAGE The project description file (.project) for 'Chap10' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 22:29:05.585
+!MESSAGE The project description file (.project) for 'chap05' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 22:29:05.585
+!MESSAGE The project description file (.project) for 'chap06' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 22:29:05.585
+!MESSAGE The project description file (.project) for 'chap08' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 22:29:05.585
+!MESSAGE The project description file (.project) for 'chap11' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-28 22:29:05.585
+!MESSAGE The project description file (.project) for 'chap12' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
