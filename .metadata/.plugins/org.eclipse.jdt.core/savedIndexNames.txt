@@ -1,5 +1,4 @@
 INDEX VERSION 1.126+C:\Users\Tatiana\Documents\GitHub\POSExercises\.metadata\.plugins\org.eclipse.jdt.core
-4222072165.index
 3177408674.index
 10819363.index
 2578204313.index
