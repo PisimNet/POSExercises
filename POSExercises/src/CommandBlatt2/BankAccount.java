@@ -26,4 +26,12 @@ class BankAccount {
 	public void reject(){
 		System.out.println("Opration is canceled");
 		}
+	
+	public void setBalance(int balance){
+		this.balance=balance;
+	}
+	
+	public int getBalance(){
+		return balance;
+	}
 	}
