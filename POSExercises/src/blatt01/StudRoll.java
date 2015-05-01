@@ -1,4 +1,4 @@
-package src.blatt01;
+package blatt01;
 
 import java.util.ArrayList;
 import java.util.List;

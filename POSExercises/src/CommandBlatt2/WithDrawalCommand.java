@@ -10,13 +10,13 @@ class WithDrawalCommand implements Command {
 		this.money=money;
 	}
 
-	@Override
+	//Override
 	public void execute() {
 		account.take(money);
 		account.check();
 	}
 
-	@Override
+	//Override
 	public void undo() {
 		account.reject();
 		account.put(money);

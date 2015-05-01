@@ -4,7 +4,6 @@ import java.util.Comparator;
 
 public class NamberComparator implements Comparator<Student> {
 
-	@Override
 	public int compare(Student s1, Student s2) {
 
 	   int rollno1 = s1.getRollno();

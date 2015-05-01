@@ -12,7 +12,6 @@ public class IdSorter implements Sorter {
 		this.ascending = ascending;
 	}
 
-	@Override
 	public List<Student> sort(List<Student> students) {
 		Comparator<Student> comparator = new IdComparator(ascending);
 		Collections.sort(students, comparator );

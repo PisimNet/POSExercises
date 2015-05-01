@@ -6,7 +6,6 @@ import java.util.Collections;
 
 public class NameSorter implements Sorter {
 
-		@Override
 		public List<Student> sort(List<Student> list) {
 			Comparator<Student> StuNameComparator = new NameComparator();
 			 /*Sorting based on Student Name*/

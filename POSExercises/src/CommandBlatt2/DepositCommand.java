@@ -10,13 +10,12 @@ class DepositCommand implements Command {
 		this.money = money;
 	}
 
-	@Override
 	public void execute() {
 		account.put(money);
 		account.check();
 	}
 
-	@Override
+	
 	public void undo() {
 		account.reject();
 		account.take(money);

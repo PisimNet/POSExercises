@@ -1,6 +1,6 @@
-package src.blatt01;
+package blatt01;
 
-public class Client {
+public class Test {
 
 	public static void main(String[] args) {
 		StudRoll roll = new StudRoll();

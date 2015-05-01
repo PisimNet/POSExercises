@@ -15,25 +15,23 @@ public class TestBanckAccount extends TestCase {
 		
 	}
 
-
-	@Before
 	public void setUp() throws Exception {
 		balance = 100;
 		money = 50;
 		acc = new BankAccount(balance);
 	}
 	
-	@After
+	//After
 	public void tearDown() throws Exception {
 	}
 
-	@Test
+	//Test
 	public void testPut() {
 		int result = balance + money;
 		assertEquals(result, acc.put(money));
 	}
 	
-	@Test
+	//Test
 	public void testTake(){
 	int result1 = balance - money;
 	assertEquals(result1, acc.take(money));

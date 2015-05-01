@@ -10,7 +10,6 @@ public class IdComparator implements Comparator<Student> {
 		this.ascending = ascending;
 	}
 
-	@Override
 	public int compare(Student o1, Student o2) {
 		int id1 = o1.getId();
 		int id2 = o2.getId();

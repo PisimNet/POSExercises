@@ -8,7 +8,6 @@ public class NameSorter implements Sorter {
 
 	private Comparator<? super Student> comparator;
 
-	@Override
 	public List<Student> sort(List<Student> students) {
 		Comparator<Student> comparator = new NameComparator();
 		Collections.sort(students, comparator );
