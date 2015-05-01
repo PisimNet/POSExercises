@@ -1,5 +1,4 @@
 package CommandBlatt2;
-import static org.junit.Assert.*;
 import junit.framework.TestCase;
 
 import org.junit.After;
@@ -10,6 +9,8 @@ public class TestBanckAccount extends TestCase {
 	private int balance;
 	private int money;
 	
+	BankAccount acc;
+	
 	public TestBanckAccount() {
 		
 	}
@@ -19,6 +20,7 @@ public class TestBanckAccount extends TestCase {
 	public void setUp() throws Exception {
 		balance = 100;
 		money = 50;
+		acc = new BankAccount(balance);
 	}
 	
 	@After
@@ -27,15 +29,14 @@ public class TestBanckAccount extends TestCase {
 
 	@Test
 	public void testPut() {
-		int result = balance + money; 
-		assertEquals(result, new BankAccount(balance).put(money));
+		int result = balance + money;
+		assertEquals(result, acc.put(money));
 	}
 	
 	@Test
 	public void testTake(){
-	// account = new BankAccount(balance);
 	int result1 = balance - money;
-	assertEquals(result1, new BankAccount(balance).take(money));
+	assertEquals(result1, acc.take(money));
 	}
 
 }
