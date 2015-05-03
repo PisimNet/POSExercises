@@ -38,8 +38,8 @@ Strategy
 *.log
 *.pdf
 *.xls
-.settings
+/.settings/
 .classpath
 .project
-.metadata
+/.metadata/
 /POSExercises/src/templatemethod/
