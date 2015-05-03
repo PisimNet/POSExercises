@@ -6,6 +6,8 @@ class Client {
 	
 public static void main(String[] args) {
 	
+	junit.textui.TestRunner.run(TestBanckAccount.class);
+	
 	CashMachine cashmachine = new CashMachine();
 	
 	BankAccount account = new BankAccount(500);

@@ -1,10 +1,6 @@
 package CommandBlatt2;
 import junit.framework.TestCase;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 public class TestBanckAccount extends TestCase {
 	private int balance;
 	private int money;
