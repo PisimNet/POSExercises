@@ -41,8 +41,3 @@ Strategy
 .classpath
 .project
 /.metadata/
-
-/POSExercises/src/templatemethod/*
-
-/POSExercises/bin/
-/POSExercises/.settings/
