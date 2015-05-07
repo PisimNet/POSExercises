@@ -16,8 +16,7 @@ chap15
 /
 com.yattasolutions.umllab.examples.shop
 /
-Composite#
-/
+Composite/
 DecoratorEx9
 /
 Dog
@@ -42,6 +41,8 @@ Strategy
 .classpath
 .project
 /.metadata/
-/POSExercises/src/templatemethod/
+
+/POSExercises/src/templatemethod/*
+
 /POSExercises/bin/
 /POSExercises/.settings/
