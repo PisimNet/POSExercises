@@ -42,4 +42,5 @@ Strategy
 .project
 /.metadata/
 /POSExercises/bin/*
-/AbsrtactFactory
+/AbsrtactFactory/
+/POSExercises/AbsrtactFactory/
